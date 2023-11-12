@@ -22,7 +22,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: testinho
-      run: echo ${{env.DIG}}
+      run: echo ${{secrets.DIG}}
 
     - name: Set up Go
       uses: actions/setup-go@v4
